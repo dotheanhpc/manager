@@ -1,4 +1,0 @@
-<?php 
-$idacc = 'dotheanhpc';
-$access_token = 'EAAAAAYsX7TsBABeOBeUQjHS7a6J3tZCIxybql0Pn7xpvJJyyHl852WoEWFP1Wau33LOnZBggJIujHCCSEzc0RApCFGZCqPoZAScFc4qSoAnWiBsyzwZAMjNUxrY5xJt9ZC65uOnkFUP6ud18SIEPltUhDPEGde97TcizKAbi9ksudnvj3ZCcWMpY9u2zxntedDHd4liUnPGSgZDZD';
-?>
