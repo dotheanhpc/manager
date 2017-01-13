@@ -8,7 +8,7 @@ $xdevil1 = post_data('https://mbasic.facebook.com/reactions/picker/?ft_id='.$idn
 $xdevil2 = getStr($xdevil1,'reaction_type=2','style="di');
 $xdevilext = getStr($xdevil2,'ext=','&amp;');
 $xdevilhash = getStr($xdevil2,'hash=','"');
-$likenek = post_data('https://mbasic.facebook.com/ufi/reaction/?ft_ent_identifier='.$idnek[1].'&reaction_type=love'.$idacc.'&_ft_&ext='.$xdevilext.'&hash='.$xdevilhash.'');
+$likenek = post_data('https://mbasic.facebook.com/ufi/reaction/?ft_ent_identifier='.$idnek[1].'&reaction_type=LOVE='.$idacc.'&_ft_&ext='.$xdevilext.'&hash='.$xdevilhash.'');
 echo $likenek;
 }
 function getStr($string,$start,$end){
