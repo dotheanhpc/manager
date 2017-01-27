@@ -1,5 +1,5 @@
 <?php
-$token = 'EAAAAAYsX7TsBAGiIZAIDFxnedvt4eIIg9rgZAl0U13p3DN3n4VwV93qNq7FMl9Kowb8bi2f9CzTUutl6ny2PB4YMkjuhSk5MuIJ6PJsihZBwZB20bUyFESZAztYZAMskcUogR1PstcxrX4rkmHxRO0naoinQBBOaoyx5iQV3tiTMkx8UDOnvSb3FZCCZAAjXvoOHcgcZA8JPnfwZDZD';
+$token = 'EAAAAAYsX7TsBAO35lDiUeazQ5ySAfGWAxJq9ydyD0gmGgvzWb1auVHPdn7k5M1Rww6BcZCWIZCbFpv3kyeUS6cAas5RWglsgnGBb5W7ZB99XYQWenXdPgIQ7PRtaQA5VfARfx9lmCZANA3O89LYpH8b3ZCr71cP1OoWlaXwvjMISH1mGHLHD7Duyiuv3tcFvjE65ZB3sBDHQZDZD';
 $stt=30;
 $ds=json_decode(dotheanhpc('https://graph.facebook.com/me/home?fields=id,message,created_time,from,comments,type&access_token='.$token.'&offset=0&limit='.$stt.''),true);
 for($i=1;$i<=count($ds[data]);$i++){
