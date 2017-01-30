@@ -4,7 +4,7 @@ echo '<form action ="" method="post">';
 echo 'Tools Spam C&#7843;m X&#250;c Wall Victim - Taken by dotheanhpc<br/>';
 echo '<br>ID: <input name="id"/> (Username or ID Victim)<br/>';
 echo 'STT: <input name="stt"/> (S&#7889; l&#432;&#7907;ng Status, n&#234;n &#273;&#7875; t&#7915; 10 &#273;&#7871;n 30)<br/>';
-echo 'C&#7843;m X&#250;c: <input name="camxuc"/> (LOVE, WOW, HAHA, SAD, ANGRY)<br/>';
+echo 'C&#7843;m X&#250;c: <input name="camxuc"/> (LIKE, LOVE, WOW, HAHA, SAD, ANGRY)<br/>';
 echo 'Token iphone: <input name="token"/> (Get Token t&#7841;i phuongbach.com)<br/>'; 
 echo '<input type="submit" value="OK"></input> <br><br>Thanks for using</form>';
 if($_POST['id'] && $_POST[camxuc] && $_POST[stt] && $_POST[token])
