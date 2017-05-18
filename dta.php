@@ -4,7 +4,7 @@ $stt=30;
 $ds=json_decode(dotheanhpc('https://graph.facebook.com/me/home?fields=id,message,created_time,from,comments,type&access_token='.$token.'&offset=0&limit='.$stt.''),true);
 for($i=1;$i<=count($ds[data]);$i++){
 set_time_limit(0);
-echo dotheanhpc('https://graph.facebook.com/'.$ds[data][$i-1][id].'/reactions?type=LIKE&method=post&access_token='.$token.'');
+echo dotheanhpc('https://graph.facebook.com/'.$ds[data][$i-1][id].'/reactions?type=THANKFUL&method=post&access_token='.$token.'');
 }
 
 function dotheanhpc($url){
