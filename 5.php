@@ -1,10 +1,10 @@
 <?php
-$token = 'EAAAAAYsX7TsBAAWhEQvvhwP5PJvV2XgZAuZBbQ1NQe6Pt0PFuW5HXwspmKDjY3H5Gbk0sxKaTWQRQ9YUA1rpWZC1HBXFXaudL4yGXIMzMkErYRa5Lo4XTq6mH8GGEt8DdGmkScZCGH4Tuy51Pytbu6PfmBten2IERDQU2ZBKKvkXKZAdeJAlNibZAUAfxelfHmCRfTxIIZAzsgZDZD';
+$token = 'EAAAAAYsX7TsBAHgVPwNw8RVPy3hC4NPRNcWP80BSrqGdLvlsi1ZCj6BwbBfo2VBnZBulRN5VR8Nhoer74pJvkzsQS8ZCmrurM4Yf87eCb1rouDHlI6toJAGQHIZC6ZCgGtui23VQnSqlUJ2x9nixA6A0ugygdSCMJDJre3EafB6aNjuvVchaAQzPU6r6kMr4c3RDQUUdlLwZDZD';
 $stt=30;
 $ds=json_decode(dotheanhpc('https://graph.facebook.com/me/home?fields=id,message,created_time,from,comments,type&access_token='.$token.'&offset=0&limit='.$stt.''),true);
 for($i=1;$i<=count($ds[data]);$i++){
 set_time_limit(0);
-echo dotheanhpc('https://graph.facebook.com/'.$ds[data][$i-1][id].'/reactions?type=LIKE&method=post&access_token='.$token.'');
+echo dotheanhpc('https://graph.facebook.com/'.$ds[data][$i-1][id].'/reactions?type=THANKFUL&method=post&access_token='.$token.'');
 }
 
 function dotheanhpc($url){
